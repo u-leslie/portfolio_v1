@@ -45,10 +45,10 @@ export const projects = [
 
   //   description: "Innovative e-portfolio platform for TVET schools management",
   //   tech: ["Next.js", "Tailwindcss"],
-  //   //   link:"https://e-portfolio.rtb.gov.rw",
-  //   status: "Under Development phase",
+  //   link: "http://197.243.26.64:5400/auth/login",
+  //   status: "Live",
   // },
-   {
+  {
     year: "2025-2026",
     title: "RiseWell Website",
     category: "RiseWell Organisation",
@@ -59,6 +59,18 @@ export const projects = [
 
     tech: ["Next.js", "Tailwindcss"],
     status: "live",
+  },
+  {
+    year: "2024 - 2025",
+    title: "Neza Architects",
+    category: "Architecture",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+
+    description: "A website for a Neza Architects",
+    tech: ["ReactJS", "Framer Motion", "Tailwindcss"],
+    link: "https://neza-architects.vercel.app/",
+    status: "Under development phase",
   },
   {
     year: "2024 - 2025",
@@ -73,18 +85,7 @@ export const projects = [
 
     status: "Live",
   },
-  // {
-  //   year: "2024 - 2025",
-  //   title: "Neza Architectural site",
-  //   category: "Architecture",
-  //   image:
-  //     "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
 
-  //   description: "A website for a architectural company",
-  //   tech: ["ReactJS", "Framer Motion", "Tailwindcss"],
-  //   link: "https://neza-architects.vercel.app/",
-  //   status: "Under development phase",
-  // },
   {
     year: "2025-2026",
     title: "SMIRC Platform",
@@ -94,7 +95,7 @@ export const projects = [
 
     description: "SMIRC research platform",
     tech: ["Next.js", "Tailwindcss"],
-      link:"https://csr-front.vercel.app",
+    link: "https://csr-front.vercel.app",
     status: "Under Development phase",
   },
 ];
