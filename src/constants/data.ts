@@ -52,7 +52,7 @@ export const projects = [
     year: "2025-2026",
     title: "RiseWell Website",
     category: "RiseWell Organisation",
-    description: "RiseWell wellness website",
+    description: "RiseWell Organisation website",
     link: "http://www.risewell.org.rw",
     image:
       "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
@@ -69,7 +69,7 @@ export const projects = [
 
     description: "A website for a Neza Architects",
     tech: ["ReactJS", "Framer Motion", "Tailwindcss"],
-    link: "https://neza-architects.vercel.app/",
+    link: "https://www.neza-architects.online/",
     status: "Under development phase",
   },
   {
@@ -82,6 +82,19 @@ export const projects = [
     description: "Poetry and photography platform",
     tech: ["ReactJS", "Next JS"],
     link: "https://art.lslie.space/",
+
+    status: "Live",
+  },
+    {
+    year: "2025 - 2026",
+    title: "IdeaBoard by ULeslie",
+    category: "Personal Project",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+
+    description: "Ideation and Production tool",
+    tech: ["ReactJS", "Next JS"],
+    link: "https://idea.lslie.space/",
 
     status: "Live",
   },
