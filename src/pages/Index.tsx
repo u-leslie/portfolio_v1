@@ -16,6 +16,7 @@ import {
 } from "lucide-react";
 import { GitHubContributionsGraph } from "../components/features/github/components/contributions-graph";
 import { getGitHubContributions } from "../components/features/github/server/get-contributions";
+import { StravaIcon } from "../components/features/strava/components/strava-icon";
 
 export default function Index() {
   const { theme, setTheme } = useTheme();
@@ -220,6 +221,15 @@ export default function Index() {
                       aria-label="Instagram"
                     >
                       <Instagram className="w-5 h-5" />
+                    </a>
+                    <a
+                      href="https://www.strava.com/athletes/1370297453"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-black/50 hover:text-black transition-colors"
+                      aria-label="Strava"
+                    >
+                      <StravaIcon className="w-5 h-5" />
                     </a>
                   </div>
                 </div>

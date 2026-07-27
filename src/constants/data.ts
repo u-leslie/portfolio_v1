@@ -99,18 +99,18 @@ export const projects = [
     status: "Live",
   },
 
-  {
-    year: "2025-2026",
-    title: "SMIRC Platform",
-    category: "SMIRC",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+  // {
+  //   year: "2025-2026",
+  //   title: "SMIRC Platform",
+  //   category: "SMIRC",
+  //   image:
+  //     "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
 
-    description: "SMIRC research platform",
-    tech: ["Next.js", "Tailwindcss"],
-    link: "https://csr-front.vercel.app",
-    status: "Under Development phase",
-  },
+  //   description: "SMIRC research platform",
+  //   tech: ["Next.js", "Tailwindcss"],
+  //   link: "https://csr-front.vercel.app",
+  //   status: "Under Development phase",
+  // },
 ];
 
 export const experiences = [
